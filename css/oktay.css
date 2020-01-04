@@ -1,0 +1,16 @@
+
+.oktay-text{
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.oktay-letter-spacing{
+    letter-spacing: 0.3rem;
+}
+
+.oktay-fit-container{
+    width: fit-content;
+}
+
+
