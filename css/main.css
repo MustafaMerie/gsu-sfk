@@ -173,6 +173,43 @@ header .navbar{
 
 */
 
+.oktay-text{
+  line-height: 28px;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.oktay-letter-spacing{
+  letter-spacing: 0.3rem;
+}
+
+.oktay-fit-container{
+  width: fit-content;
+}
+
+
+.oktay-bold{
+  font-weight: 800;
+  font-size: 2.5em;
+  color: black;
+}
+
+.oktay-img{
+  width: 100%;
+  border-radius: 2em;
+
+}
+.oktay-about-img{
+  width: 100%;
+  border-radius: 2em;
+}
+.oktay-img:hover{
+  box-shadow: red 0.2em 0.2em 1em;
+  filter: grayscale();
+}
+
+
+
 
 /*OKTAY END HERE*/
 
