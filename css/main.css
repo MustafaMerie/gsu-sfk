@@ -50,13 +50,13 @@ Coder             :
 General Style
 ======================================================== */
   /*google font*/
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700,800&display=swap');
 body{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   padding: 0;
   margin: 0;
@@ -111,7 +111,51 @@ section{
   ##MUSTAFA START HERE
 
 */
+header .navbar{
+  background: #fc4311;
+  padding: 10px 0px;
+}
 
+.navbar-light .navbar-nav .nav-link{
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background:no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 576px) { 
+
+  .navbar-container{margin: 0 20px;}
+}
+.display-4{
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+.lead{
+  font-size: 22px;
+  color: #fff;
+}
+
+.carousel-caption{
+  top: 30%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #080d15;
+  opacity: .7;
+}
 
 /*MUSTAFA END HERE*/
 
@@ -128,6 +172,43 @@ section{
   ##OKTAY START HERE
 
 */
+
+.oktay-text{
+  line-height: 28px;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.oktay-letter-spacing{
+  letter-spacing: 0.3rem;
+}
+
+.oktay-fit-container{
+  width: fit-content;
+}
+
+
+.oktay-bold{
+  font-weight: 800;
+  font-size: 2.5em;
+  color: black;
+}
+
+.oktay-img{
+  width: 100%;
+  border-radius: 2em;
+
+}
+.oktay-about-img{
+  width: 100%;
+  border-radius: 2em;
+}
+.oktay-img:hover{
+  box-shadow: red 0.2em 0.2em 1em;
+  filter: grayscale();
+}
+
+
 
 
 /*OKTAY END HERE*/
@@ -186,6 +267,39 @@ section{
   MUHAMMED START HERE
 
 */
+#contact-us{
+   background-color: #2f2e2e;
+   padding: 0 0 40px 0;
+   margin: 0;
+ }
+#contact-us h2{
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 50px;
+  border-bottom: 1px solid #fff;
+}
+#contact-us input[type="submit"]{
+  border:  black;
+  background-color: black;
+  color: #fff;
+}
+#contact{
+  background-color:#fc4311;
+}
+#contact i{
+  color: #fff;
+}
+#contact h2{
+  color: #fff;
+}
+#love{
+  background-color: #fff;
+  padding: 10px 0;
+}
+#love h3{
+  color: #000;
+
+}
 
 
 /*MUHAMMED END HERE*/
@@ -194,7 +308,7 @@ section{
 /*==================================================
 =            Bootstrap 4 Media Queries             =
 ==================================================*/
- 
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {  
  
