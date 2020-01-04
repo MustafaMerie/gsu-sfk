@@ -1,0 +1,194 @@
+/*------------------------------------------------------------------
+# [Stylesheet Introduction]
+
+Project Name      :  
+Primary use       :  
+Version           :  
+Last Edits        :  
+Coding End Time   :  
+Coder             : 
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+# [Table Of Contents]
+// when the screen > 767px
+ Body
+  ├── 
+  ├── 
+  ├── 
+  ├── 
+  ├── 
+  ├── 
+  ├──
+
+// when the screen < 767px
+ Body
+  ├── 
+  ├── 
+  ├──
+  
+// Un orderd elements
+  ├── Loading Screen
+  ├── back to top button
+    
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+# [Typography]
+
+# Body    : 0.8em/1.2em 'Raleway', sans-serif;
+# Headers : 1em/2em 'Raleway', serif;
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+# [Colors Used]
+
+# Headers , Text     : #1d9cd6 / #444 ; 
+# Links   , On Hover : #fff   / #1d9cd6 ;
+------------------------------------------------------------------*/
+/* ====================================================
+General Style
+======================================================== */
+  /*google font*/
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700&display=swap');
+body{
+  -webki-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+*,
+*:after,
+*:before{
+  webki-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+a{color: #444;text-decoration: none;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #444;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+h3,
+h4,
+h5,
+h6{font-weight: 500;}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+section{
+  margin: 100px auto 50px;
+}
+
+/* 
+   Helper classes
+*/
+
+.transition{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out
+}
+
+/* ============================== End General ============================== */
+
+
+/*
+
+  ##MUSTAFA START HERE
+
+*/
+
+
+/*MUSTAFA END HERE*/
+
+
+
+
+
+
+
+
+
+/*
+
+  ##OKTAY START HERE
+
+*/
+
+
+/*OKTAY END HERE*/
+
+
+
+
+
+
+
+
+
+/*
+
+  ZAYNEB  START HERE
+
+*/
+
+
+/*ZAYNEB END HERE*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+  MUHAMMED START HERE
+
+*/
+
+
+/*MUHAMMED END HERE*/
+
+
+/*==================================================
+=            Bootstrap 4 Media Queries             =
+==================================================*/
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+ 
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+ 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
