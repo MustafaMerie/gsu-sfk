@@ -164,6 +164,44 @@ section{
   MUHAMMED START HERE
 
 */
+ #contact-us{
+   background-color: #2f2e2e;
+   padding: 0 0 40px 0;
+   margin: 0;
+ }
+#contact-us h2{
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 50px;
+  border-bottom: 1px solid #fff;
+}
+#contact-us input[type="submit"]{
+  border:  black;
+  background-color: black;
+  color: #fff;
+}
+.mohColor{
+  background-color: #fc11fc
+
+  ;
+}
+#contact{
+  background-color:#fc4311;
+}
+#contact i{
+  color: #fff;
+}
+#contact h2{
+  color: #fff;
+}
+#love{
+  background-color: #fff;
+  padding: 10px 0;
+}
+#love h3{
+  color: #000;
+
+}
 
 
 /*MUHAMMED END HERE*/
