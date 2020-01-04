@@ -52,7 +52,7 @@ General Style
   /*google font*/
 @import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700&display=swap');
 body{
-  -webki-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff;
@@ -64,7 +64,7 @@ body{
 *,
 *:after,
 *:before{
-  webki-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
@@ -145,6 +145,28 @@ section{
   ZAYNEB  START HERE
 
 */
+
+
+.zrow1 {
+  align-content: center;
+}
+
+#zh2 {
+  display: inline-block;
+  border-bottom: #FC4311 solid 1px;
+
+}
+
+
+#zh3 {
+  padding-top: 1rem;
+}
+
+
+#cimg {
+  width: 3rem;
+  margin-right: 1rem;
+}
 
 
 /*ZAYNEB END HERE*/
