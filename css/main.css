@@ -229,25 +229,33 @@ header .navbar{
 
 
 .zrow1 {
+
   align-content: center;
 }
 
 #zh2 {
-  display: inline-block;
+
   border-bottom: #FC4311 solid 1px;
+  font-weight: 800;
+  font-size: 2.5em;
+  color: black;
+  
 
-}
-
-
-#zh3 {
-  padding-top: 1rem;
 }
 
 
 #cimg {
+
   width: 3rem;
   margin-right: 1rem;
+
 }
+
+
+
+
+
+
 
 
 /*ZAYNEB END HERE*/
