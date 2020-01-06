@@ -275,6 +275,7 @@ header .navbar{
   MUHAMMED START HERE
 
 */
+
 #contact-us{
    background-color: #2f2e2e;
    padding: 0 0 40px 0;
@@ -309,7 +310,56 @@ header .navbar{
 
 }
 
-
+/*////animation///*/
+h1:hover,h2:hover,h3:hover,h4:hover{
+  animation:rotateMe 2s alternate infinite both ;
+}
+img:hover{
+  animation:scaleMe 2s 
+}
+header{
+  animation:slidingStartRight 2s both
+}
+#carouselExampleIndicators{
+  animation: slidingStartLeft 3s 2s both;
+}
+i{
+  animation:rotateMe 3s infinite both alternate;
+  margin:0 10px ;
+}
+@keyframes rotateMe{
+  from {
+      transform: rotateZ(0deg);   
+  }
+  to {
+      transform:rotatez(360deg);
+  }
+  
+}
+@keyframes scaleMe{
+  frome{
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}
+@keyframes slidingStartRight{
+  from{
+      transform: translateX(2000px);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+@keyframes slidingStartLeft{
+  from{
+      transform: translateX(-2000px);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
 /*MUHAMMED END HERE*/
 
 
