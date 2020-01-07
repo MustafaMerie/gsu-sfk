@@ -293,8 +293,9 @@ header .navbar{
 @media only screen and (max-width:470px) {
 
    .zheading3 {
-    font-size: 1.25rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 400;
+   
   }
 
 }
