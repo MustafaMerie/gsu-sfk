@@ -358,7 +358,7 @@ h1:hover,h2:hover,h3:hover,h4:hover{
 }
 img:hover{
   /* animation:scaleMe 2s forwards; */
-  transform: scale(1.1);
+  transform: scale(1.05);
 
 }
 header{
@@ -375,6 +375,16 @@ i{
   /* animation:border 1s forwards; */
   background-color: #fc4311;
   border-radius:30px;
+}
+div.blogImg{
+  transition-duration: 1s;
+}
+div.blogImg:hover{
+  transform: scale(1.05);
+
+}
+div.blogImg img:hover{
+  transform: scale(1);
 }
 @keyframes rotateMe{
   0% {
