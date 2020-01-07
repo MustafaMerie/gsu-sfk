@@ -251,7 +251,36 @@ header .navbar{
 
 }
 
+.blogImg {
 
+  margin: 2rem auto;
+  position: relative;
+
+}
+
+
+.blogSpan {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #FC4311;
+  padding: 0.4rem;
+  font-size: 14px;
+
+}
+
+.postBy {
+  
+  font-size: 14px;
+  color: #fc4311;  
+
+}
+
+.blogImg:after .postBy {
+  display: block
+}
 
 
 
@@ -275,7 +304,14 @@ header .navbar{
   MUHAMMED START HERE
 
 */
+h1,h2,h3,h4,h5{
+  transition: all 1s;
 
+}
+img{
+  transition: all 1s;
+
+}
 #contact-us{
    background-color: #2f2e2e;
    padding: 0 0 40px 0;
@@ -311,11 +347,19 @@ header .navbar{
 }
 
 /*////animation///*/
+#contact-us input[type="submit"]{
+  transition: all 1s;
+}
+
 h1:hover,h2:hover,h3:hover,h4:hover{
-  animation:rotateMe 2s alternate infinite both ;
+  /* animation:scaleMe 2s alternate infinite both ; */
+  transform: scale(1.1);
+
 }
 img:hover{
-  animation:scaleMe 2s 
+  /* animation:scaleMe 2s forwards; */
+  transform: scale(1.1);
+
 }
 header{
   animation:slidingStartRight 2s both
@@ -327,23 +371,29 @@ i{
   animation:rotateMe 3s infinite both alternate;
   margin:0 10px ;
 }
+#contact-us input[type="submit"]:hover{
+  /* animation:border 1s forwards; */
+  background-color: #fc4311;
+  border-radius:30px;
+}
 @keyframes rotateMe{
-  from {
+  0% {
       transform: rotateZ(0deg);   
   }
-  to {
-      transform:rotatez(360deg);
+  100% {
+      transform:rotatez(270deg);
+      background-color: #fc4311;
   }
   
 }
-@keyframes scaleMe{
+/* @keyframes scaleMe{
   frome{
       transform: scale(1);
   }
   to {
       transform: scale(1.1);
   }
-}
+} */
 @keyframes slidingStartRight{
   from{
       transform: translateX(2000px);
@@ -360,6 +410,11 @@ i{
       transform: translateX(0);
   }
 }
+/* @keyframes border{
+  0%{ border-radius: 0; }
+  100% { border-radius:30px; transition-duration: 1s; }
+  
+} */
 /*MUHAMMED END HERE*/
 
 
