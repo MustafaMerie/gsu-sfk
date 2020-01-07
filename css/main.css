@@ -50,13 +50,13 @@ Coder             :
 General Style
 ======================================================== */
   /*google font*/
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,700,800&display=swap');
 body{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #fff;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   padding: 0;
   margin: 0;
@@ -228,6 +228,65 @@ header .navbar{
 */
 
 
+.zrow1 {
+
+  align-content: center;
+}
+
+#zh2 {
+
+  border-bottom: #FC4311 solid 1px;
+  font-weight: 800;
+  font-size: 2.5em;
+  color: black;
+  
+
+}
+
+
+#cimg {
+
+  width: 3rem;
+  margin-right: 1rem;
+
+}
+
+.blogImg {
+
+  margin: 2rem auto;
+  position: relative;
+
+}
+
+
+.blogSpan {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #FC4311;
+  padding: 0.4rem;
+  font-size: 14px;
+
+}
+
+.postBy {
+  
+  font-size: 14px;
+  color: #fc4311;  
+
+}
+
+.blogImg:after .postBy {
+  display: block
+}
+
+
+
+
+
+
 /*ZAYNEB END HERE*/
 
 
@@ -245,8 +304,117 @@ header .navbar{
   MUHAMMED START HERE
 
 */
+h1,h2,h3,h4,h5{
+  transition: all 1s;
 
+}
+img{
+  transition: all 1s;
 
+}
+#contact-us{
+   background-color: #2f2e2e;
+   padding: 0 0 40px 0;
+   margin: 0;
+ }
+#contact-us h2{
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 50px;
+  border-bottom: 1px solid #fff;
+}
+#contact-us input[type="submit"]{
+  border:  black;
+  background-color: black;
+  color: #fff;
+}
+#contact{
+  background-color:#fc4311;
+}
+#contact i{
+  color: #fff;
+}
+#contact h2{
+  color: #fff;
+}
+#love{
+  background-color: #fff;
+  padding: 10px 0;
+}
+#love h3{
+  color: #000;
+
+}
+
+/*////animation///*/
+#contact-us input[type="submit"]{
+  transition: all 1s;
+}
+
+h1:hover,h2:hover,h3:hover,h4:hover{
+  /* animation:scaleMe 2s alternate infinite both ; */
+  transform: scale(1.1);
+
+}
+img:hover{
+  /* animation:scaleMe 2s forwards; */
+  transform: scale(1.1);
+
+}
+header{
+  animation:slidingStartRight 2s both
+}
+#carouselExampleIndicators{
+  animation: slidingStartLeft 3s 2s both;
+}
+i{
+  animation:rotateMe 3s infinite both alternate;
+  margin:0 10px ;
+}
+#contact-us input[type="submit"]:hover{
+  /* animation:border 1s forwards; */
+  background-color: #fc4311;
+  border-radius:30px;
+}
+@keyframes rotateMe{
+  0% {
+      transform: rotateZ(0deg);   
+  }
+  100% {
+      transform:rotatez(270deg);
+      background-color: #fc4311;
+  }
+  
+}
+/* @keyframes scaleMe{
+  frome{
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+} */
+@keyframes slidingStartRight{
+  from{
+      transform: translateX(2000px);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+@keyframes slidingStartLeft{
+  from{
+      transform: translateX(-2000px);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+/* @keyframes border{
+  0%{ border-radius: 0; }
+  100% { border-radius:30px; transition-duration: 1s; }
+  
+} */
 /*MUHAMMED END HERE*/
 
 
