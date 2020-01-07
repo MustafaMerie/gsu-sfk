@@ -251,7 +251,36 @@ header .navbar{
 
 }
 
+.blogImg {
 
+  margin: 2rem auto;
+  position: relative;
+
+}
+
+
+.blogSpan {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #FC4311;
+  padding: 0.4rem;
+  font-size: 14px;
+
+}
+
+.postBy {
+  
+  font-size: 14px;
+  color: #fc4311;  
+
+}
+
+.blogImg:after .postBy {
+  display: block
+}
 
 
 
