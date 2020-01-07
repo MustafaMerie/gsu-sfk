@@ -233,12 +233,13 @@ header .navbar{
   align-content: center;
 }
 
-#zh2 {
+.zh2 {
 
   border-bottom: #FC4311 solid 1px;
   font-weight: 800;
   font-size: 2.5em;
   color: black;
+  padding-top: 1.5rem;
   
 
 }
@@ -250,6 +251,16 @@ header .navbar{
   margin-right: 1rem;
 
 }
+
+
+.ourBlog {
+
+  background-color: #f8f9fa;
+  padding-bottom: 1rem;
+
+}
+
+
 
 .blogImg {
 
@@ -278,8 +289,14 @@ header .navbar{
 
 }
 
-.blogImg:after .postBy {
-  display: block
+
+@media only screen and (max-width:470px) {
+
+   .zheading3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
 }
 
 
