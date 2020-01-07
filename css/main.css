@@ -96,12 +96,7 @@ section{
    Helper classes
 */
 
-.transition{
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out
-}
+
 
 /* ============================== End General ============================== */
 
@@ -132,6 +127,7 @@ section{
 .oktay-text{
   line-height: 28px;
   font-family: 'Poppins', sans-serif;
+  
  
 }
 
@@ -163,6 +159,7 @@ section{
   box-shadow: red 0.2em 0.2em 1em;
   filter: grayscale();
 }
+
 
 
 

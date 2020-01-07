@@ -1,11 +1,15 @@
 <!DOCTYPE html>
     <head>
+       );
+          </script>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="">
         <meta name="description" content="">
-
+        <script>
+            AOS.init();
+          </script>
         <title></title>
         <!--Font-->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700,800&display=swap" rel="stylesheet">
@@ -22,6 +26,10 @@
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <!--animation-->
+        <link rel="stylesheet" href="./css/animate.css">
+        <!--scroll animation-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
         <!--[if IE]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
@@ -43,7 +51,7 @@
        <!-- OKTAY START HERE -->
 
         <section id="about-us">
-            <div class="container">
+            <div class="container" data-aos="zoom-in">
                 <h2 class="mx-auto text-center oktay-text oktay-bold border-bottom border-danger pb-2 oktay-fit-container">About Informations</h2>
                 <p class="text-center oktay-text m-5">
                     It is a long established fact that a reader will be distracted by the readable content of a 
@@ -52,14 +60,13 @@
                 </p>
             </div>
             <div class="container">
-                
-                <div class="row">
-                    <div class="col-6">
-                        <h3 class="oktay-text oktay-letter-spacing">DISTRACTED BY THE READABLE</h3>
+                <div class="row" >
+                    <div class="col-lg-6">
+                        <h3 class="oktay-text oktay-letter-spacing fadeInRight">DISTRACTED BY THE READABLE</h3>
                         <p class="oktay-text mt-4 text-secondary font-weight-light"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, aIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, aIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of lettersdistracted by the readable distracted by the readable ,</p>
                     </div>
-                    <div class="col-6">
-                        <img class="oktay-about-img" src="./img/aboutimg.png" alt="about-us-pic">
+                    <div class="col-lg-6">
+                        <img  data-aos="flip-down" class="oktay-about-img" src="./img/aboutimg.png" alt="about-us-pic">
                     </div>
                 </div>
             </div>
@@ -67,7 +74,7 @@
         </section>
 
         <section class="bg-light" id="event">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
                 <h2 class="mx-auto text-center oktay-text oktay-bold border-bottom border-danger p-2 pt-4 oktay-fit-container text-danger ">Events</h2>
                 <p class="text-center oktay-text text-secondary m-5">
                     It is a long established fact that a reader will be distracted by the readable content of a 
@@ -75,8 +82,8 @@
 
                 </p>
             </div>
-            <div class="container">
-                <div class="row">
+            <div class="container" data-aos="fade-up" >
+                <div class="row" data-aos="fade-left" data-aos-duration="3000" >
                     <div class="col m-3">
                         <img class="oktay-img" src="./img/afis-1.png" alt="afis-1">
                     </div>
@@ -87,7 +94,7 @@
                         <img class="oktay-img" src="./img/afis-3.png" alt="afis-2">
                     </div>
                 </div> <!--.row-->
-                <div class="row">
+                <div class="row" data-aos="fade-right" data-aos-duration="3000">
                     <div class="col m-3">
                         <img class="oktay-img" src="./img/afis-4.png" alt="afis-2">
                     </div>
@@ -144,5 +151,9 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+          AOS.init();
+        </script>
     </body>
 </html>
