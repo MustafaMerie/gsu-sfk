@@ -233,12 +233,13 @@ header .navbar{
   align-content: center;
 }
 
-#zh2 {
+.zh2 {
 
   border-bottom: #FC4311 solid 1px;
   font-weight: 800;
   font-size: 2.5em;
   color: black;
+  padding-top: 1.5rem;
   
 
 }
@@ -250,6 +251,16 @@ header .navbar{
   margin-right: 1rem;
 
 }
+
+
+.ourBlog {
+
+  background-color: #f8f9fa;
+  padding-bottom: 1rem;
+
+}
+
+
 
 .blogImg {
 
@@ -278,8 +289,15 @@ header .navbar{
 
 }
 
-.blogImg:after .postBy {
-  display: block
+
+@media only screen and (max-width:470px) {
+
+   .zheading3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+   
+  }
+
 }
 
 
@@ -358,7 +376,7 @@ h1:hover,h2:hover,h3:hover,h4:hover{
 }
 img:hover{
   /* animation:scaleMe 2s forwards; */
-  transform: scale(1.1);
+  transform: scale(1.05);
 
 }
 header{
@@ -375,6 +393,16 @@ i{
   /* animation:border 1s forwards; */
   background-color: #fc4311;
   border-radius:30px;
+}
+div.blogImg{
+  transition-duration: 1s;
+}
+div.blogImg:hover{
+  transform: scale(1.05);
+
+}
+div.blogImg img:hover{
+  transform: scale(1);
 }
 @keyframes rotateMe{
   0% {
